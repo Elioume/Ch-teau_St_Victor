@@ -5,7 +5,7 @@
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -51,10 +51,13 @@ h1 {
 
 h2 {
     font-family: "Alice", serif;
+    color: #4D3E9A;
+    padding: 20px 0px;
 }
 
 h3 {
     font-family: "Alice", serif;
+    padding: 10px 0px
 }
 
 a {
@@ -92,6 +95,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 3;
     width: 100%;
     backdrop-filter: blur(6px);
 }
@@ -103,6 +107,7 @@ header {
 /* Nice (Hero) */
 .sectionHero {
     height: 100vh;
+    position: relative;
 }
 
 /* image en background qui fait 100% de la fenetre + ne se deforme pas */
@@ -126,4 +131,105 @@ header {
 
 .alignHero {
     padding-left: 38px;
+}
+
+/* Services */
+.sectionService {
+    position: relative;
+    top: -60px;
+}
+
+.carteViolette {
+    background-color: #4d3e9a97;
+    display: block;
+    width: 23%;
+    padding: 40px 0px;
+    text-align: center;
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+}
+
+/* Sticky */
+.partieGauche {
+    width: 68%;
+}
+
+.carte {
+    width: 100%;
+}
+
+.pCarte {
+    background-color: #4d3e9a4f;
+    backdrop-filter: blur(8px);
+    padding: 15px 0px 15px 15px;
+    position: relative;
+    top: -50px;
+}
+
+.wCarte {
+    width: 48%;
+}
+
+.partieDroite {
+    width: 23%;
+
+}
+
+.aside {
+    border: solid grey 2px;
+    padding: 20px 0px 20px 40px;
+    border-radius: 15px 0px 0px 15px;
+    position: sticky;
+    top: 100px;
+}
+
+.pp {
+    padding: 10px 0px;
+}
+
+.ppd {
+    padding: 5px 0px;
+}
+
+/* Visite Virtuelle */
+iframe {
+    width: 100%;
+    height: 700px;
+    padding: 10px 30px 50px 30px;
+}
+
+.txtAlign {
+    text-align: center;
+}
+
+/* bouton top page + background image */
+.filligrane{
+    position: fixed;
+    top: 50%;
+    left: 100px;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.btnTopPage {
+    position: fixed;
+
+}
+
+/* FOOTER */
+footer {
+    background-color: #4D3E9A;
+}
+
+.paddingFTopBot {
+    padding: 50px 0px 30px 0px;
+}
+
+.paddingFTxt {
+    padding: 10px 0px;
+}
+
+.paddingFLI{
+    padding: 5px;
+
 }
